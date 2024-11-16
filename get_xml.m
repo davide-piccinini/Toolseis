@@ -1,7 +1,12 @@
 function T=get_xml(NET,STA,CHA,TIME,RES);
 
-% T=get_xml(NET,STA,CHA,TIME);
+% T=get_xml(NET,STA,CHA,TIME,RES);
 % example: T=get_xml('IV','GRFL','*','2000-01-01',1);
+% T is a MatLab structure containing all the infos about the seismic station
+% if RES==1 print a summary
+
+% davide.piccinini -at- ingv.it 
+% 
 
 
 if nargin ==2 
