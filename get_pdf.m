@@ -8,6 +8,9 @@ function [power,frequency]=get_pdf(NET,STA,CHA,YEAR,TYP,PLT);
 % power is in dB
 % frequency in Hz
 
+% davide.piccinini -at- ingv.it 
+% 
+
 
 
 STR='https://webservices.ingv.it/ingvws/sqlx/exPDFstat/1/?year=YYYY&mode=pdf&pdflist_number=1&net=NN&sta=SSSS&cha=CCC&loc=--&type=F&stat_type=ZZZZ&format=text';
