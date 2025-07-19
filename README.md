@@ -1,1 +1,1 @@
-Some seismological MatLab tools able to interact with INGV webservices
+Some seismological MatLab tools created to interact with INGV webservices
